@@ -55,16 +55,18 @@ Deploy a **static website** using **Amazon S3** and deliver it globally with **C
 
 ## 📂 Project Folder Structure
 
-aws-project2-s3-cloudfront-deployment
+<pre>
+aws-project2-s3-cloudfront-deployment/
 │
-├── site
-│   ├── index.html
-│   └── style.css
+├─ site/
+│   ├─ index.html
+│   └─ style.css
 │
-└── docs
-    ├── project2_problem_statement.pdf
-    ├── project2_overview.pdf
-    └── project2_final_report_v8.pdf
+└─ docs/
+    ├─ project2_problem_statement.pdf
+    ├─ project2_overview.pdf
+    └─ project2_final_report_v8.pdf
+</pre>
 
 
 
