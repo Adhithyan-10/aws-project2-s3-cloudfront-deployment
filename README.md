@@ -21,16 +21,22 @@ Deploy a **static website** using **Amazon S3** and deliver it globally with **C
 
 ## 🏗️ Architecture Diagram
 
-```mermaid
+       +-----------------------+
+       |      User Browser     |
+       +-----------+-----------+
+                   |
+                   v
+         +-------------------+
+         |  CloudFront CDN   |
+         | (HTTPS + Caching) |
+         +---------+---------+
+                   |
+                   v
+        +----------------------+
+        |     Amazon S3        |
+        | (Static Website Files)|
+        +----------------------+
 
-flowchart LR
-    A[User Browser] --> B[CloudFront CDN (HTTPS + Caching)]
-    B --> C[S3 Bucket (Static Website Files)]
-
-```
-
-## ☁️ AWS Services Used
----------------------------------
 
 
 ## ☁️ AWS Services Used
@@ -58,9 +64,11 @@ aws-project2-s3-cloudfront-deployment/
     ├─ project2_overview.pdf
     └─ project2_final_report_v8.pdf
 
+
 ## 🌍 Live Website URL:
   https://d345486x3djd94.cloudfront.net
 Website loads globally with HTTPS and CDN caching enabled ✅
+
 
 ## 🎥 Project Demo Video
 --------------------------
@@ -80,6 +88,7 @@ Avoiding EC2 means no compute cost and no server maintenance.
 Deployed a static web application using Amazon S3 and CloudFront, enabling secure, globally distributed access under AWS Free Tier.
 Configured S3 bucket policies, static website hosting, and CloudFront CDN for caching and HTTPS enforcement.
 Achieved cost-effective and serverless deployment by eliminating EC2 compute requirements.
+
 
 ## 🗣️ Viva / Interview Response
 ------------------------------------
