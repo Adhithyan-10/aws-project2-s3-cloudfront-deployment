@@ -26,26 +26,27 @@ Deploy a **static website** using **Amazon S3** for hosting and **Amazon CloudFr
 
 ## 🏗️ Architecture Diagram
 
-## 🏗️ Architecture Diagram
-
 ```mermaid
 flowchart LR
     A[User Browser] --> B[CloudFront CDN (HTTPS + Caching)]
     B --> C[S3 Bucket (Static Website Files)]
 
 ---
+
 ## ☁️ AWS Services Used
 ---------------------------------
 
+
 ## ☁️ AWS Services Used
+
 
 | Service | Purpose | Why Used |
 |--------|---------|----------|
-| **Amazon S3** | Stores and hosts static website files | Serverless, free-tier, no backend/server required |
-| **Amazon CloudFront** | Global CDN delivery and caching | Improves website loading speed and performance worldwide |
-| **AWS Certificate Manager (ACM)** | Provides free SSL/HTTPS certificates | Enables secure HTTPS access with no cost |
-| **IAM (Identity & Access Management)** | Manages user and service permissions | Controls and secures access to S3 resources |
-| **S3 Bucket Policy** | Grants public read access to website files | Allows website files to be accessed over the internet |
+| **Amazon S3** | Stores and hosts static website files | Enables serverless static web hosting under free tier |
+| **Amazon CloudFront** | Global CDN caching & fast content delivery | Makes website faster for users worldwide |
+| **AWS Certificate Manager (ACM)** | Issues SSL Certificates | Enables **HTTPS** for secure & trusted website access |
+| **IAM (Identity & Access Management)** | Controls permissions for resources | Ensures only authorized access to bucket contents |
+| **S3 Bucket Policy** | Public read access policy | Allows end users to view hosted website files via browser |
 
 
 ## 📂 Project Folder Structure
