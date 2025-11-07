@@ -1,26 +1,21 @@
 <h1 align="center">🌐 Project 2 — Static Website Hosting using Amazon S3 & CloudFront</h1>
-
-<p align="center">
-  <b>Serverless • CDN Accelerated • HTTPS Secured • Free-Tier Optimized</b>
-</p>
+<p align="center"><b>Serverless | CDN Accelerated | HTTPS Enabled | Free-Tier Eligible</b></p>
 
 ---
 
 ## 🎯 Objective
-
-Deploy a **static website** using **Amazon S3** for hosting and **Amazon CloudFront** for global CDN delivery with **HTTPS**, without using EC2 or any backend server — ensuring **zero maintenance** and **free-tier cost efficiency**.
+Deploy a **static website** using **Amazon S3** and deliver it globally with **CloudFront CDN** and **HTTPS**, without using EC2 or backend servers — ensuring **high availability** and **zero maintenance cost**.
 
 ---
 
 ## 🧩 Problem Statement
-
-| Requirement | Explanation |
-|------------|-------------|
-| Host a static website | Use S3 static site hosting |
-| Public Access | Apply S3 bucket policy for public read |
-| Improve Global Performance | Use CloudFront CDN |
-| Enable Security | Redirect HTTP → HTTPS |
-| Ensure Cost Efficiency | Avoid EC2 compute charges |
+| Requirement | Implementation |
+|------------|----------------|
+| Host front-end website files | Use Amazon S3 Static Website Hosting |
+| Public internet access | Add S3 Bucket Policy (Public Read) |
+| Improved global performance | Integrate Amazon CloudFront CDN |
+| Secure HTTPS access | Enable SSL using AWS Certificate Manager (Automatically via CloudFront) |
+| Cost efficient | Free-tier serverless architecture (No EC2 required) |
 
 ---
 
@@ -31,7 +26,6 @@ flowchart LR
     A[User Browser] --> B[CloudFront CDN (HTTPS + Caching)]
     B --> C[S3 Bucket (Static Website Files)]
 
----
 
 ## ☁️ AWS Services Used
 ---------------------------------
