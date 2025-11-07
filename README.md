@@ -51,8 +51,9 @@ Deploy a **static website** using **Amazon S3** and deliver it globally with **C
 | **IAM (Identity & Access Management)** | Controls permissions for resources | Ensures only authorized access to bucket contents |
 | **S3 Bucket Policy** | Public read access policy | Allows end users to view hosted website files via browser |
 
-```
+
 ## 📂 Project Directory Layout
+```
 
 aws-project2-s3-cloudfront-deployment
 │
