@@ -22,10 +22,12 @@ Deploy a **static website** using **Amazon S3** and deliver it globally with **C
 ## 🏗️ Architecture Diagram
 
 ```mermaid
+
 flowchart LR
     A[User Browser] --> B[CloudFront CDN (HTTPS + Caching)]
     B --> C[S3 Bucket (Static Website Files)]
 
+```
 
 ## ☁️ AWS Services Used
 ---------------------------------
