@@ -1,6 +1,7 @@
 <h1 align="center">🌐 Project 2 — Static Website Hosting using Amazon S3 & CloudFront</h1>
 <p align="center"><b>Serverless | CDN Accelerated | HTTPS Enabled | Free-Tier Eligible</b></p>
 
+
 ---
 
 ## 🎯 Objective
