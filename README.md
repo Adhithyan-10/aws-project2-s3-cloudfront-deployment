@@ -51,22 +51,22 @@ Deploy a **static website** using **Amazon S3** and deliver it globally with **C
 | **IAM (Identity & Access Management)** | Controls permissions for resources | Ensures only authorized access to bucket contents |
 | **S3 Bucket Policy** | Public read access policy | Allows end users to view hosted website files via browser |
 
+```
+## 📂 Project Directory Layout
 
-## 📦 Project Directory Layout
-
-🗂️ **aws-project2-s3-cloudfront-deployment**
+aws-project2-s3-cloudfront-deployment
 │
-├── 📁 **site/**
-│    ├── 🌐 index.html
-│    └── 🎨 style.css
+├── site
+│ ├── index.html
+│ └── style.css
 │
-├── 📁 **docs/**
-│    ├── 📄 project2_problem_statement.pdf
-│    ├── 📄 project2_overview.pdf
-│    └── 📄 project2_final_report_v8.pdf
+├── docs
+│ ├── project2_problem_statement.pdf
+│ ├── project2_overview.pdf
+│ └── project2_final_report_v8.pdf
 │
-└── 📝 README.md
-
+└── README.md
+```
 
 ## 🌍 Live Website URL:
   https://d345486x3djd94.cloudfront.net
