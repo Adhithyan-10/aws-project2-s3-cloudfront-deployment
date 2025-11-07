@@ -26,25 +26,29 @@ Deploy a **static website** using **Amazon S3** for hosting and **Amazon CloudFr
 
 ## 🏗️ Architecture Diagram
 
+## 🏗️ Architecture Diagram
+
 ```mermaid
 flowchart LR
-    A[👤 User Browser] --> B[🌍 CloudFront CDN (HTTPS + Caching)]
-    B --> C[🪣 Amazon S3 Bucket (Static Website Files)]
-# aws-project2-s3-cloudfront-deployment
+    A[User Browser] --> B[CloudFront CDN (HTTPS + Caching)]
+    B --> C[S3 Bucket (Static Website Files)]
 
+---
 ## ☁️ AWS Services Used
 ---------------------------------
 
-| Service | Icon | Purpose | Why Used |
-|--------|:----:|---------|---------|
-| **Amazon S3** | 🪣 | Stores and hosts static website files | Cost-efficient, serverless web hosting |
-| **Amazon CloudFront** | 🌍 | Delivers content globally with caching | Ensures fast load speeds + low latency |
-| **AWS Certificate Manager (ACM)** | 🔐 | Provides free SSL certificates | To enable **HTTPS** securely at no extra cost |
-| **IAM (Identity and Access Management)** | 🔑 | Controls S3 bucket access permissions | Ensures correct public read access |
-| **S3 Bucket Policy** | 📜 | Grants public object access | Allows users to access website files over the internet |
+## ☁️ AWS Services Used
+
+| Service | Purpose | Why Used |
+|--------|---------|----------|
+| **Amazon S3** | Stores and hosts static website files | Serverless, free-tier, no backend/server required |
+| **Amazon CloudFront** | Global CDN delivery and caching | Improves website loading speed and performance worldwide |
+| **AWS Certificate Manager (ACM)** | Provides free SSL/HTTPS certificates | Enables secure HTTPS access with no cost |
+| **IAM (Identity & Access Management)** | Manages user and service permissions | Controls and secures access to S3 resources |
+| **S3 Bucket Policy** | Grants public read access to website files | Allows website files to be accessed over the internet |
 
 
-📂 Project Folder Structure
+## 📂 Project Folder Structure
 -------------------------------------
 aws-project2-s3-cloudfront-deployment/
 │
@@ -57,17 +61,17 @@ aws-project2-s3-cloudfront-deployment/
     ├─ project2_overview.pdf
     └─ project2_final_report_v8.pdf
 
-🌍 Live Website URL:
+## 🌍 Live Website URL:
   https://d345486x3djd94.cloudfront.net
 Website loads globally with HTTPS and CDN caching enabled ✅
 
-🎥 Project Demo Video
+## 🎥 Project Demo Video
 --------------------------
 Click to Watch 👉
 https://drive.google.com/file/d/1-IxHhJpkYO3g4SYbmF_WneD4RCHDNWsm/view?usp=drive_link
 
 
-💡 Key Learnings
+## 💡 Key Learnings
 ----------------------------
 S3 works as a web hosting service for static content.
 CloudFront improves global speed using edge caching.
@@ -75,12 +79,12 @@ ACM enables HTTPS at zero cost.
 Avoiding EC2 means no compute cost and no server maintenance.
 
 
-💼 Resume Bullet Points:
+## 💼 Resume Bullet Points:
 Deployed a static web application using Amazon S3 and CloudFront, enabling secure, globally distributed access under AWS Free Tier.
 Configured S3 bucket policies, static website hosting, and CloudFront CDN for caching and HTTPS enforcement.
 Achieved cost-effective and serverless deployment by eliminating EC2 compute requirements.
 
-🗣️ Viva / Interview Response
+## 🗣️ Viva / Interview Response
 ------------------------------------
 “I hosted the website on S3 because it contains only static files and doesn't need a server.
 CloudFront provides global caching and enables HTTPS for secure delivery.
