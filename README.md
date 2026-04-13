@@ -101,6 +101,8 @@ CloudFront provides global caching and enables HTTPS for secure delivery.
 This architecture is scalable, cost-efficient, and commonly used in industry deployments.”
 
 
+
+
 ---
 <h2 align="center">👨‍💻 Author</h2>
 
