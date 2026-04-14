@@ -22,23 +22,8 @@ Deploy a **static website** using **Amazon S3** and deliver it globally with **C
 
 ## 🏗️ Architecture Diagram
 
-       +-----------------------+
-       |      User Browser     |
-       +-----------+-----------+
-                   |
-                   v
-         +-------------------+
-         |  CloudFront CDN   |
-         | (HTTPS + Caching) |
-         +---------+---------+
-                   |
-                   v
-        +----------------------+
-        |     Amazon S3        |
-        | (Static Website Files)|
-        +----------------------+
-
-
+ ![Architecture Diagram](architecture/architecture-diagrammm.png)
+ 
 
 ## ☁️ AWS Services Used
 
