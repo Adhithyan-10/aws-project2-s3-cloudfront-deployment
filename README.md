@@ -61,10 +61,8 @@ Website loads globally with HTTPS and CDN caching enabled ✅
 
 ## 🎥 Project Demo Video
 --------------------------
-Click to Watch 👉  
-
-🎥 **Demo Video:**  
-👉 [Watch Demo](https://drive.google.com/file/d/1-IxHhJpkYO3g4SYbmF_WneD4RCHDNWsm/view?usp=drive_link)
+ 
+Click To Watch👉 [Watch Demo](https://drive.google.com/file/d/1-IxHhJpkYO3g4SYbmF_WneD4RCHDNWsm/view?usp=drive_link)
 
 
 ## 💡 Key Learnings
